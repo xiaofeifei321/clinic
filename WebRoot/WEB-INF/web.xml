@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.hospital.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>com.hospital.servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllGuide</servlet-name>
+    <servlet-class>com.hospital.servlet.GetAllGuide</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllOffice</servlet-name>
+    <servlet-class>com.hospital.servlet.GetAllOffice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllWeifk</servlet-name>
+    <servlet-class>com.hospital.servlet.GetAllWeifk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllYifk</servlet-name>
+    <servlet-class>com.hospital.servlet.GetAllYifk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllLianxi</servlet-name>
+    <servlet-class>com.hospital.servlet.GetAllLianxi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOneUser</servlet-name>
+    <servlet-class>com.hospital.servlet.GetOneUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUser</servlet-name>
+    <servlet-class>com.hospital.servlet.UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMoney</servlet-name>
+    <servlet-class>com.hospital.servlet.AddMoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddLianxi</servlet-name>
+    <servlet-class>com.hospital.servlet.AddLianxi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteLianxi</servlet-name>
+    <servlet-class>com.hospital.servlet.DeleteLianxi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WeiForYi</servlet-name>
+    <servlet-class>com.hospital.servlet.WeiForYi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSub</servlet-name>
+    <servlet-class>com.hospital.servlet.AddSub</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOneOffice</servlet-name>
+    <servlet-class>com.hospital.servlet.GetOneOffice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sousuo</servlet-name>
+    <servlet-class>com.hospital.servlet.Sousuo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>com.hospital.jsp.DeleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteGuide</servlet-name>
+    <servlet-class>com.hospital.jsp.DeleteGuide</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Xianshi</servlet-name>
+    <servlet-class>com.hospital.jsp.Xianshi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertGuide</servlet-name>
+    <servlet-class>com.hospital.jsp.InsertGuide</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteOffice</servlet-name>
+    <servlet-class>com.hospital.jsp.DeleteOffice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.hospital.jsp.Login</servlet-class>
+  </servlet>
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteLianxiforjsp</servlet-name>
+    <servlet-class>com.hospital.jsp.DeleteLianxiforjsp</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteTousuforjsp</servlet-name>
+    <servlet-class>com.hospital.jsp.DeleteTousuforjsp</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertOffice</servlet-name>
+    <servlet-class>com.hospital.jsp.InsertOffice</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateOffice</servlet-name>
+    <servlet-class>com.hospital.jsp.UpdateOffice</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EventsList</servlet-name>
+    <servlet-class>com.hospital.servlet.EventsList</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertEvents</servlet-name>
+    <servlet-class>com.hospital.jsp.InsertEvents</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateEvents</servlet-name>
+    <servlet-class>com.hospital.jsp.UpdateEvents</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteEvents</servlet-name>
+    <servlet-class>com.hospital.jsp.DeleteEvents</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetEventsServlet</servlet-name>
+    <servlet-class>com.hospital.servlet.GetEventsServlet</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetContentSrevlet</servlet-name>
+    <servlet-class>com.hospital.servlet.GetContentSrevlet</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTousu</servlet-name>
+    <servlet-class>com.hospital.servlet.AddTousu</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddQues</servlet-name>
+    <servlet-class>com.hospital.servlet.AddQues</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteQuesforjsp</servlet-name>
+    <servlet-class>com.hospital.servlet.DeleteQuesforjsp</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetQuesServlet</servlet-name>
+    <servlet-class>com.hospital.servlet.GetQuesServlet</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateQues</servlet-name>
+    <servlet-class>com.hospital.jsp.UpdateQues</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveQues</servlet-name>
+    <servlet-class>com.hospital.jsp.SaveQues</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<servlet-mapping>
+    <servlet-name>GetQuesServlet</servlet-name>
+    <url-pattern>/servlet/GetQuesServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>DeleteQuesforjsp</servlet-name>
+    <url-pattern>/servlet/DeleteQuesforjsp</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>UpdateQues</servlet-name>
+    <url-pattern>/servlet/UpdateQues</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>SaveQues</servlet-name>
+    <url-pattern>/servlet/SaveQues</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>AddQues</servlet-name>
+    <url-pattern>/servlet/AddQues</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>DeleteTousuforjsp</servlet-name>
+    <url-pattern>/servlet/DeleteTousuforjsp</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>AddTousu</servlet-name>
+    <url-pattern>/servlet/AddTousu</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>GetContentSrevlet</servlet-name>
+    <url-pattern>/servlet/GetContentSrevlet</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>GetEventsServlet</servlet-name>
+    <url-pattern>/servlet/GetEventsServlet</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>DeleteEvents</servlet-name>
+    <url-pattern>/servlet/DeleteEvents</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>UpdateEvents</servlet-name>
+    <url-pattern>/servlet/UpdateEvents</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>InsertEvents</servlet-name>
+    <url-pattern>/servlet/InsertEvents</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>EventsList</servlet-name>
+    <url-pattern>/servlet/EventsList</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>UpdateOffice</servlet-name>
+    <url-pattern>/servlet/UpdateOffice</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>InsertOffice</servlet-name>
+    <url-pattern>/servlet/InsertOffice</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>DeleteLianxiforjsp</servlet-name>
+    <url-pattern>/servlet/DeleteLianxiforjsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/servlet/RegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllGuide</servlet-name>
+    <url-pattern>/servlet/GetAllGuide</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllOffice</servlet-name>
+    <url-pattern>/servlet/GetAllOffice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllWeifk</servlet-name>
+    <url-pattern>/servlet/GetAllWeifk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllYifk</servlet-name>
+    <url-pattern>/servlet/GetAllYifk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllLianxi</servlet-name>
+    <url-pattern>/servlet/GetAllLianxi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOneUser</servlet-name>
+    <url-pattern>/servlet/GetOneUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUser</servlet-name>
+    <url-pattern>/servlet/UpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMoney</servlet-name>
+    <url-pattern>/servlet/AddMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddLianxi</servlet-name>
+    <url-pattern>/servlet/AddLianxi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteLianxi</servlet-name>
+    <url-pattern>/servlet/DeleteLianxi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WeiForYi</servlet-name>
+    <url-pattern>/servlet/WeiForYi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSub</servlet-name>
+    <url-pattern>/servlet/AddSub</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOneOffice</servlet-name>
+    <url-pattern>/servlet/GetOneOffice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sousuo</servlet-name>
+    <url-pattern>/servlet/Sousuo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/servlet/DeleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteGuide</servlet-name>
+    <url-pattern>/servlet/DeleteGuide</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Xianshi</servlet-name>
+    <url-pattern>/servlet/Xianshi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertGuide</servlet-name>
+    <url-pattern>/servlet/InsertGuide</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOffice</servlet-name>
+    <url-pattern>/servlet/DeleteOffice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
